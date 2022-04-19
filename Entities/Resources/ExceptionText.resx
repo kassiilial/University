@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="InvalidHomeworkName" xml:space="preserve">
+        <value>It's incorrect name for Homework</value>
+    </data>
+    <data name="HomeworkExist" xml:space="preserve">
+        <value>Homework is exist</value>
+    </data>
+    <data name="InvalidLection" xml:space="preserve">
+        <value>Lection isn't exist</value>
+    </data>
+    <data name="InvalidHomework" xml:space="preserve">
+        <value>Homework isn't exist</value>
+    </data>
+    <data name="InvalidLectionName" xml:space="preserve">
+        <value>It's incorrect name for Lection</value>
+    </data>
+    <data name="InvalidLectorName" xml:space="preserve">
+        <value>It's incorrect name for Lector</value>
+    </data>
+    <data name="InvalidStudentName" xml:space="preserve">
+        <value>It's incorrect name for Student</value>
+    </data>
+    <data name="InvalidUniversityName" xml:space="preserve">
+        <value>It's incorrect name for University</value>
+    </data>
+    <data name="InvalidLector" xml:space="preserve">
+        <value>Lector isn't exist</value>
+    </data>
+    <data name="InvalidStudent" xml:space="preserve">
+        <value>Student isn't exist</value>
+    </data>
+    <data name="InvalidUniversity" xml:space="preserve">
+        <value>University isn't exist</value>
+    </data>
+    <data name="LectionExist" xml:space="preserve">
+        <value>Lection is exist</value>
+    </data>
+    <data name="LectorExist" xml:space="preserve">
+        <value>Lector is exist</value>
+    </data>
+    <data name="StudentExist" xml:space="preserve">
+        <value>Student is exist</value>
+    </data>
+    <data name="UniversityExist" xml:space="preserve">
+        <value>University is exist</value>
+    </data>
+    <data name="EmptyUniversity" xml:space="preserve">
+        <value>There are not Universities in DataBase</value>
+    </data>
+    <data name="EmptyHomework" xml:space="preserve">
+        <value>There are not Homeworks in DataBase</value>
+    </data>
+    <data name="EmptyLection" xml:space="preserve">
+        <value>There are not Lections in DataBase</value>
+    </data>
+    <data name="EmptyLector" xml:space="preserve">
+        <value>There are not Lectors in DataBase</value>
+    </data>
+    <data name="EmptyStudent" xml:space="preserve">
+        <value>There are not Students in DataBase</value>
+    </data>
+    <data name="EmptyMarkAndVisited" xml:space="preserve">
+        <value>There are not Mark and Visited in DataBase</value>
+    </data>
+    <data name="InvalidMarkAndVisited" xml:space="preserve">
+        <value>Mark and Visited isn't exist</value>
+    </data>
+</root>
