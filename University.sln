@@ -1,22 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{7D493BAA-DB75-4A64-8EEE-D51AF98F0E43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.BusinessLogic", "University.BusinessLogic\University.BusinessLogic.csproj", "{7D493BAA-DB75-4A64-8EEE-D51AF98F0E43}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{C709A3D7-63CA-4945-9986-D329DD4ED0A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{B54EF772-47E7-4C8C-80CF-F48BF5DF7819}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicInterfaces", "BusinessLogicInterfaces\BusinessLogicInterfaces.csproj", "{B54EF772-47E7-4C8C-80CF-F48BF5DF7819}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.UnitTest", "University.UnitTest\University.UnitTest.csproj", "{27205BA9-2F6C-48F6-BA44-2B8C52AAD876}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicTest", "BusinessLogicTest\BusinessLogicTest.csproj", "{27205BA9-2F6C-48F6-BA44-2B8C52AAD876}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{C2B49158-D30B-4EF1-87F2-9E8D99C47B86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntitiesIntefaces", "EntitiesIntefaces\EntitiesIntefaces.csproj", "{C2B49158-D30B-4EF1-87F2-9E8D99C47B86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.DTOs", "University.DTOs\University.DTOs.csproj", "{9493D60C-52F3-4459-AFEE-872467EFD878}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTransferObject", "DataTransferObject\DataTransferObject.csproj", "{9493D60C-52F3-4459-AFEE-872467EFD878}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.DataBase", "University.DataBase\University.DataBase.csproj", "{CB459D3E-8BD8-422B-8E26-6E0FD70E0B15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{CB459D3E-8BD8-422B-8E26-6E0FD70E0B15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.Logger", "University.Logger\University.Logger.csproj", "{562EE44C-0D34-4C45-A7FE-712DEC2EA9F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLogger", "MyLogger\MyLogger.csproj", "{562EE44C-0D34-4C45-A7FE-712DEC2EA9F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.API", "University.API\University.API.csproj", "{5E60577F-04B1-471E-BFF0-562C3C47DC7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{5E60577F-04B1-471E-BFF0-562C3C47DC7E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.Exceptions", "University.Exceptions\University.Exceptions.csproj", "{1B733883-DC57-48CC-ADEC-D1BAF486C628}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{741528B7-9B08-44D8-ACCD-20D6ED004E7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,9 +58,13 @@ Global
 		{5E60577F-04B1-471E-BFF0-562C3C47DC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E60577F-04B1-471E-BFF0-562C3C47DC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E60577F-04B1-471E-BFF0-562C3C47DC7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B733883-DC57-48CC-ADEC-D1BAF486C628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B733883-DC57-48CC-ADEC-D1BAF486C628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B733883-DC57-48CC-ADEC-D1BAF486C628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B733883-DC57-48CC-ADEC-D1BAF486C628}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{B54EF772-47E7-4C8C-80CF-F48BF5DF7819} = {C709A3D7-63CA-4945-9986-D329DD4ED0A0}
-		{C2B49158-D30B-4EF1-87F2-9E8D99C47B86} = {C709A3D7-63CA-4945-9986-D329DD4ED0A0}
+		{B54EF772-47E7-4C8C-80CF-F48BF5DF7819} = {741528B7-9B08-44D8-ACCD-20D6ED004E7D}
+		{C2B49158-D30B-4EF1-87F2-9E8D99C47B86} = {741528B7-9B08-44D8-ACCD-20D6ED004E7D}
 	EndGlobalSection
 EndGlobal
